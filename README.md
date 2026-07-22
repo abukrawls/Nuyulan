@@ -35,7 +35,7 @@ python3 -m http.server 8000
 
 ## Catatan penyimpanan data
 
-Data disimpan secara persisten di lingkungan tempat aplikasi ini dijalankan (melalui API penyimpanan bawaan pada halaman). Jika di-deploy ke hosting statis biasa (mis. GitHub Pages) di luar lingkungan tersebut, sesuaikan bagian penyimpanan data (`window.storage`) pada `index.html` dengan mekanisme penyimpanan yang tersedia di platform tujuan (misalnya IndexedDB, backend API, dsb.), karena `window.storage` khusus untuk lingkungan Artifact ini dan tidak tersedia di browser biasa.
+Data disimpan secara permanen di **IndexedDB** milik browser pengguna — tetap ada walau halaman di-refresh, browser ditutup, atau HP di-restart. Data ini tersimpan per perangkat/per browser (tidak otomatis sinkron antar perangkat berbeda) dan tidak butuh server atau koneksi internet setelah halaman pertama kali dimuat.
 
 ## Struktur
 
