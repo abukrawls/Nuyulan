@@ -1,16 +1,16 @@
 # Data Nuyulan
 
-Aplikasi pencatatan jumlah paket nuyulan harian — minimalis, cepat, dan datanya tersimpan permanen di perangkat/browser pengguna.
+Aplikasi pencatatan data buyer & COD nuyulan — minimalis, cepat, dan datanya tersimpan permanen di perangkat/browser pengguna.
 
 ## Fitur
 
-- Pencatatan tanggal & jumlah paket, dengan nomor urut otomatis
-- Daftar data berbentuk kartu, terurut dari tanggal terlama ke terbaru
+- Pencatatan nama buyer & jumlah COD, dengan nomor urut otomatis
+- Daftar data berbentuk kartu, terurut sesuai urutan input
 - Edit dan hapus data (dengan konfirmasi)
-- Ringkasan Total Data & Total Paket, dihitung otomatis
-- Export laporan ke gambar PNG (siap dibagikan/dicetak)
+- Ringkasan Total Buyer & Total COD, dihitung otomatis dan diformat Rupiah
+- Export laporan ke gambar PNG bergaya struk pembayaran (No, Nama Buyer, COD, Total), siap dibagikan/dicetak
 - Mode terang & gelap
-- Validasi input (paket wajib diisi, harus bilangan bulat positif)
+- Validasi input (nama buyer wajib diisi, COD wajib angka bulat ≥ 0)
 
 ## Menjalankan secara lokal
 
